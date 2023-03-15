@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# read the list of words into an array
+readarray -t words
+
+# create an associative array to count the occurrences of each word
+declare -A counts
+for word in "${words[@]}"; do
+  ((counts["$word"]++))
+done
+
+# print the words that appear exactly once, sorted
+for word in "${!counts[@]}"; do
+  if (( counts["$word"] == 1 )); then
+    echo "$word"
+  fi
+done | sort
+

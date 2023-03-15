@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Count the number of directories and subdirectories in the current directory
+num_dirs=$(find . -mindepth 1 -maxdepth 1 -type d | wc -l)
+num_subdirs=$(find . -mindepth 2 -type d | wc -l)
+
+# Subtract the current and parent directories from the count
+num_dirs=$((num_dirs - 2))
+num_subdirs=$((num_subdirs - num_dirs))
+
+echo "Number of directories: $num_dirs"
+echo "Number of sub-directories: $num_subdirs"

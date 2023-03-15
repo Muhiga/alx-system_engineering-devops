@@ -1,0 +1,16 @@
+total 56
+-rw-r--r-- 1 muhiga muhiga   12 Mar 15 21:20 *\Best School'\*\?\*\*\*\*\:\
+drwxr-xr-x 2 muhiga muhiga 4096 Mar 15 21:35 .
+drwxr-xr-x 4 muhiga muhiga 4096 Mar 15 18:25 ..
+-rwxr-xr-x 1 muhiga muhiga   32 Mar 15 18:19 0-hello_world
+-rwxr-xr-x 1 muhiga muhiga   31 Mar 15 18:30 1-confused_smiley
+-rwxr-xr-x 1 muhiga muhiga   28 Mar 15 19:34 2-hellofile
+-rwxr-xr-x 1 muhiga muhiga   43 Mar 15 19:41 3-twofiles
+-rwxr-xr-x 1 muhiga muhiga   35 Mar 15 19:47 4-lastlines
+-rwxr-xr-x 1 muhiga muhiga   36 Mar 15 19:53 5-firstlines
+-rwxr-xr-x 1 muhiga muhiga   59 Mar 15 20:14 6-third_line
+-rwxr-xr-x 1 muhiga muhiga  128 Mar 15 21:20 7-file
+-rwxr-xr-x 1 muhiga muhiga   36 Mar 15 21:29 8-cwd_state
+-rwxr-xr-x 1 muhiga muhiga   67 Mar 15 21:34 9-duplicate_last_line
+-rwxr-xr-x 1 muhiga muhiga    2 Mar 15 21:38 iacta
+-rw-r--r-- 1 muhiga muhiga    0 Mar 15 21:39 ls_cwd_content
