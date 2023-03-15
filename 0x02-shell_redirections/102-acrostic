@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# read the file from standard input
+while read line || [[ -n "$line" ]]; do
+    # get the first letter of the line
+    first_letter=${line:0:1}
+
+    # append the first letter to the decoded message
+    decoded="$decoded$first_letter"
+done
+
+# print the decoded message
+echo "$decoded"

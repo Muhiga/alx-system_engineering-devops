@@ -1,0 +1,9 @@
+#!/bin/bash
+
+shopt -s globstar nullglob
+
+for f in **/*.gif; do
+    if [ -f "$f" ]; then
+        echo "$(basename -- "$f" .gif)" 
+    fi
+done | LC_COLLATE=C sort -f
